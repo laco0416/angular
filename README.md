@@ -10,6 +10,8 @@
 Angular
 =========
 
+[![Join the chat at https://gitter.im/laco0416/angular](https://badges.gitter.im/laco0416/angular.svg)](https://gitter.im/laco0416/angular?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Angular is a development platform for building mobile and desktop web applications. This is the
 repository for [Angular 2][ng2], both the JavaScript (JS) and [Dart][dart] versions.
 
