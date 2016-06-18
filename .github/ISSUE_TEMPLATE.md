@@ -1,33 +1,34 @@
-**I'm submitting a ...**  (check one with "x")
-```
-[ ] bug report
-[ ] feature request
-[ ] support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question
-```
+**使用しているバージョン**
 
-**Current behavior**
+* **Angular:** 2.0.0-rc.X
 
+* **Browser:** [all | Chrome XX | Firefox XX | IE XX | Safari XX | Mobile Chrome XX | Android X.X Web Browser | iOS XX Safari | iOS XX UIWebView | iOS XX WKWebView ]
 
-**Expected/desired behavior**
+* **Language:** [all | TypeScript X.X | ES6/7 | ES5 | Dart]
 
+## バグ報告の場合
 
-**Reproduction of the problem**
-If the current behavior is a bug or you can illustrate your feature request better with an example, please provide the steps to reproduce and if possible a minimal demo of the problem via https://plnkr.co or similar (you can use this template as a starting point: http://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5).
+**発生している問題**
+必要に応じて画像やdemoのURLがあるとgoodです
 
+**期待する動作**
 
+**再現方法**
 
-**What is the expected behavior?**
+PlunkerのURLがあるとすぐに再現できて助かります。
 
-
-
-**What is the motivation / use case for changing the behavior?**
+http://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5
 
 
+## 機能の要望の場合
 
-**Please tell us about your environment:**
+**解決したいこと**
 
-* **Angular version:** 2.0.0-rc.X
- 
-* **Browser:** [all | Chrome XX | Firefox XX | IE XX | Safari XX | Mobile Chrome XX | Android X.X Web Browser | iOS XX Safari | iOS XX UIWebView | iOS XX WKWebView ] 
- 
-* **Language:** [all | TypeScript X.X | ES6/7 | ES5 | Dart] 
+**現在の機能では不足な理由**
+
+**(もしあれば)具体的な解決案**
+
+
+## 質問の場合
+
+自由に書いてください。
