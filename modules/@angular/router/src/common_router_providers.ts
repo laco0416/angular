@@ -62,6 +62,10 @@ export function setupRouterInitializer(injector: Injector) {
   return (): any => null;
 }
 
+export function setupActivatedRoute(router: Router) {
+  return router.routerState.root; 
+}
+
 /**
  * An array of {@link Provider}s. To use the router, you must add this to your application.
  *
@@ -101,7 +105,7 @@ export function provideRouter(routes: Routes, config: ExtraOptions): any[] {
     },
 
     RouterOutletMap,
-    {provide: ActivatedRoute, useFactory: (r: Router) => r.routerState.root, deps: [Router]},
+    {provide: ActivatedRoute, useFactory: setupActivatedRoute, deps: [Router]},
 
     // Trigger initial navigation
     {provide: APP_INITIALIZER, multi: true, useFactory: setupRouterInitializer, deps: [Injector]},
